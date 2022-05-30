@@ -1,0 +1,335 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre&family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
+@import url('https://fonts.google.com/specimen/Pacifico#standard-styles');
+body{font-family: 'Inter', sans-serif; color: #6B6B6B}
+@font-face{
+	src: url(../webfonts/Pacifico-Regular.ttf);
+	font-family: Pacifico;
+}
+h1,h2,h3,h4{font-family: 'Abhaya Libre', serif; color: #4B4342}
+h1{ font-size: 48px}
+h2{ font-size: 32px}
+h3{ font-size: 22px}
+h4{ font-size: 16px}
+h5{font-size:14px}
+*{box-sizing: border-box;}
+.display-1{font-family: 'Homemade Apple', cursive;}
+.mega-menu{ width: 700%; margin-left: -250%}
+.tieudetrang{ background: url( ../IMAGES/Blog-title.jpg) center top no-repeat;
+	display: flex; align-items: center; justify-content: center;
+min-height: 350px}
+.tieudetrang h1{
+	font-family: Pacifico;
+	color: #fff;
+}
+aside section{
+	padding-bottom: 50px;
+}
+aside section h4{
+	margin: 20px 0;
+	background-color: #8FA83B;
+	text-align: center;
+	line-height: 50px;
+	letter-spacing: 1px;
+	color: #fff;
+}
+aside section ul li{
+	list-style-image: url(../IMAGES/nav-link-dot.png);
+	margin-left: 20px;
+}
+aside section a.nav-link{
+	color: #666;
+	padding-left: 20px;
+}
+aside section a.nav-link:hover{
+	color:pink;
+	padding-left: 10px;
+}
+@media (max-width:768px){
+	.mega-menu{ width: 100%; margin-left: 0}
+	
+}
+#recent-article a{
+	text-decoration: none;
+	color:#4B4342;
+}
+#blog-content i{
+	padding:0 10px;
+}
+#comment input{
+	line-height: 40px; 
+}
+.banner-cap-l, .banner-cap-r{
+position: absolute;
+top: 100px;
+}
+.banner-cap-r{
+right: 200px;
+}
+.banner-cap-l{
+left: 200px;
+}
+.bn-tittle{
+	color: #fff;
+	font-size: 40px;
+}
+.sub-bn{
+	color: #333;
+	font-size: 15px;
+}
+.bn-sale{
+	color: #FFF392;
+	font-size: 70px;
+}
+.border-bold{
+	border: 10px solid #FFDEA6;
+}
+.intro-cap{
+	text-align: center;
+}
+@media(min-width:576px){
+.bg-trend{
+	height: 180px;
+	width: 180px;
+	text-align: center;
+}}
+.bg-trend a{
+	text-decoration: none;
+}
+.trending-cap-blue{
+	width: 180px;
+	height: 180px;
+	background-image: url( ../IMAGES/blue_180x180.png);
+	line-height: 180px;
+
+	margin: 0 auto;
+}
+.trending-cap-pink{
+	width: 180px;
+	height: 180px;
+	background-image: url( ../IMAGES/pink_180x180.png);
+	line-height: 180px;
+	margin: 0 auto;
+}
+.trending-cap-sandal{
+	width: 180px;
+	height: 180px;
+	background-image: url( ../IMAGES/sandal_180x180.png);
+	line-height: 180px;
+	margin: 0 auto;
+}
+.bg-trend a .trending-cap-blue:hover{
+	transform: scale(1.5);
+	color: red;
+}.bg-trend a .trending-cap-pink:hover{
+	transform: scale(1.5);
+	color: red;
+}.bg-trend a .trending-cap-sandal:hover{
+	transform: scale(1.5);
+	color: red;
+}
+#trending{
+	justify-content:center;
+}
+#trending-product{
+	text-align: center;
+}
+.yellow{
+	color: yellow;
+}
+.service{
+	padding: 0;
+	background-image: url(../IMAGES/bg-1.jpg);
+	height: 600px;
+}
+.right-flavour{
+	position: absolute;
+	right: 0px;
+}
+.flavour-sub-r{
+	text-align: right;
+}
+.flavour-sub-l{
+	text-align: left;
+}
+.bt-flavour button{
+	width: 200px;
+	color: #fff;
+}
+#our-prices{
+	background-image: url( ../IMAGES/bg-price.jpg) ;
+	margin:100px 0;
+	height: auto;	
+}
+.box{
+	margin-top: 50px;
+	background-color: #5EB8C0;
+	padding: 3px;
+	margin: 0;
+	height: 600px;
+}
+.box-img{
+	position: relative;
+	top:-100px;
+}
+.box-sub{
+	background-color: #fff;
+	padding: 0;
+	margin: 0;
+	position: relative;
+	top:-30px;
+	height: 81%;
+}
+.box-name h3{
+	position: relative;
+	top:-80px;
+	font-size: 40px;
+}
+.food{
+	border-bottom: 1px solid #5EB8C0;
+	margin:auto 10px;
+	
+}
+.box-sub button{
+		border: 1px solid #5EB8C0;
+	background-color: #fff;
+}
+.box-sub button a{
+	text-decoration: none;
+	color: #333;
+	background-color: #fff;
+}
+.box-sub button a:hover{
+	color: #5EB8C0;
+}
+#bg-client{
+	margin: 100px 0;
+	background-image: url(../IMAGES/bg-ourclient.png);
+	height: auto;
+}
+#contact-us{
+	background-image: url(../IMAGES/bg-contact.jpg)
+}
+#form-ct{
+	background-color: #EDE8EB;
+}
+.info-ct{
+	text-align: right;
+	position: relative;
+	bottom: 55px;
+}
+.contact-input input,.contact-input button  {
+	margin: 10px 20px;
+}
+.contact-input button
+{
+	background-color: #5EB8C0;
+	height: 40px;
+}
+.contact-input button a {
+	text-decoration: none;
+	color: #fff;		
+}
+.contact-input button a:hover{
+	color: red;
+}
+.staff h3{
+	font-size: 30px;
+}
+.staff p{
+	letter-spacing: 2px;
+}
+.our-service{
+	text-decoration: none;
+}
+.our-service p{
+	color: #fff;
+	background: #672F0A;
+	height: 40px;
+	line-height: 40px;
+}
+.bg-icon{
+	height: 50px;
+	width: 50px
+}
+.bg-icon i{
+	line-height: 50px
+}
+.sub-info{
+	border: 2px solid #8FA83B;
+}
+#form-send input{
+	margin: 10px;
+	height: 50px;
+}
+#form-send button{
+	color: #fff;
+}
+#bg-story{
+	background: url(../IMAGES/about/bg-our-st.png) no-repeat;
+}
+#story h3 { 
+font-size: 40px;
+}
+#story button a{
+	color: #fff;
+	text-decoration: none;
+	line-height: 40px;
+	font-size: 14px;
+	letter-spacing: 2px;
+}
+#bg-standard{
+	background-image: url(../IMAGES/about/bg-standard.png);
+	height: auto;
+}
+
+footer{ background:#4B4342; font-size:0.8rem}
+
+.intro-cap h3:hover {
+	color: #FF91AF;
+}
+.intro .image:hover{
+opacity:0.6;
+}
+.product img:hover{
+	opacity: 0.6;
+}
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.text h3, .text p {
+	color: #fff;
+}
+.intro:hover .middle{
+	opacity: 1;
+}
+.product:hover .middle{
+	opacity: 1;
+}
+.image{
+	opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.product{
+	position: relative;
+}
+.intro{
+	 position: relative;
+}
+.bt-buynow{
+	background-color: #FFF392;
+	color:#333;
+}
